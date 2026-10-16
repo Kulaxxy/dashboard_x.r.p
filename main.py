@@ -3,8 +3,8 @@ from threading import Thread
 from flask import Flask, jsonify
 from collections import deque
 
-TOKEN = os.getenv("8359523867:AAHspJgzTocY2k--UBrmLGQnKmilN9CSw8s")
-CHAT_ID = os.getenv("270814176")
+TOKEN = os.getenv("")
+CHAT_ID = os.getenv("")
 
 # --- ESTADO GLOBAL ---
 XRP = {"price": 1.3038, "imb": 50, "bids": 0, "asks": 0}
