@@ -3,7 +3,7 @@ from threading import Thread
 from flask import Flask, jsonify
 from collections import deque
 
-TOKEN = os.getenv("")
+TOKEN = os.getenv(" ")
 CHAT_ID = os.getenv("")
 
 # --- ESTADO GLOBAL ---
